@@ -10,8 +10,8 @@ const app = next({ prod, hostname: host, port })
 const handle = app.getRequestHandler();
 
 const httpsOptions = {
-  key: fs.readFileSync('/ssl/makdostech.key'),
-  cert: fs.readFileSync('/ssl/makdostech.crt'),
+  key: fs.readFileSync('/etc/letsencrypt/live/js.oneofit.com/fullchain.pem'),
+  cert: fs.readFileSync('/etc/letsencrypt/live/js.oneofit.com/privkey.pem'),
 };
 
 app.prepare().then(() => {
