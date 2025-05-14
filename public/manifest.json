@@ -1,0 +1,51 @@
+{
+    "short_name": "Makdos Tech",
+    "name": "Makdos Tech: Do you need a website?",
+    "icons": [
+        {
+            "src": "/favicon.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "/g16X16.png",
+            "type": "image/png",
+            "sizes": "16x16"
+        },
+        {
+            "src": "/g32X32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "/g96X96.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/apple120X120.png",
+            "type": "image/png",
+            "sizes": "120x120"
+        },
+        {
+            "src": "/apple180X180.png",
+            "type": "image/png",
+            "sizes": "180x180"
+        },
+        {
+            "src": "/apple152X152.png",
+            "type": "image/png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "/apple167X167.png",
+            "type": "image/png",
+            "sizes": "167x167"
+        }
+    ],
+    "start_url": "/",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#2563EB",
+    "description": "Makdos Tech: Do you need a website?"
+}
