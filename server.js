@@ -10,8 +10,8 @@ const app = next({ prod, hostname: host, port })
 const handle = app.getRequestHandler();
 
 const httpsOptions = {
-  key: fs.readFileSync('/etc/letsencrypt/live/js.oneofit.com/privkey.pem'),
-  cert: fs.readFileSync('/etc/letsencrypt/live/js.oneofit.com/fullchain.pem'),
+  key: fs.readFileSync('/etc/letsencrypt/live/mytredc.com/privkey.pem'),
+  cert: fs.readFileSync('/etc/letsencrypt/live/mytredc.com/fullchain.pem'),
 };
 
 app.prepare().then(() => {
